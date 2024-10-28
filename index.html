@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maimoona Aziz | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<!-- Navigation Section-->
+ 
+    <header >
+        <nav>
+            <div class="content">
+                <!-- Header on desktop mode -->
+                <div class="desktop-header">
+                    <ul>
+                        <li><a href="#landing">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <span class="separator"></span>
+                        <li>
+                            <label class="switch">
+                                <input type="checkbox" id="theme-toggle">
+                                <span class="slider round"></span>
+                              </label>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Header on mobile mode -->
+                <div class="mobile-header">
+                    <ul >
+                        <li><a href="#landing">Home</a></li>
+                        <li class="menu-toggle">
+                            <div class="menu-container">
+                                <button id="menuButton">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                                </button>
+                                <div class="dropdown-menu" id="dropdownMenu">
+                                    <a href="#about">About Me</a>
+                                    <a href="#education">Education</a>
+                                    <a href="#skills">Skills</a>
+                                    <a href="#contact">Contact</a>
+                                    <button id="theme-button">Switch Theme</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- Home Section-->
+
+    <div id="landing">
+        <div class="content">
+            <div class="container">
+                <div class="fade-in">
+                    <h1>Hi, I'm Maimoona  〜(꒪꒳꒪)〜</h1>
+                    <p>I am a Computer Engineering student at KMUTT on a mission to make life easier—because life’s too short for unnecessary hassles. Rather than wait for things to catch up to my standards, I’m taking matters into my own hands. I'm dedicated to mastering the skills needed to bring this vision to life and set a new standard for seamless, user-friendly experiences for everyone.
+                    </p>
+                    <div class="wrap-icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        <p>Bangkok, Thailand</p>
+                    </div>
+                    <div class="wrap-icons">
+                        <a href="https://github.com/Wiggle-Ryutsuki/CPE101-Portfolio-2024" target="_blank" aria-label="GitHub Profile">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/maiprofile.webp" alt="Mai-san" class="fade-left">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- About Section-->
+
+    <div id="about">
+        <div class="content">
+            <div class="wrapper-container">
+                <div class="titles">
+                    <p>About Me</p>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <img src="images/melib.webp" alt="Mai-san" class="fade-left">
+                </div>
+                <div>
+                    <h1 class="fade-in">Wait, who am I?</h1>
+                    <p class="fade-left">Hey there! I’m Maimoona Aziz, originally from Bangkok, Thailand, and currently a student of the computer engineering faculty at KMUTT. Some old friends call me Mai, but around here, I go by Moona.</p>
+                    <p class="fade-left">I got into programming for the endless creative possibilities in today's technology and the thrill of tackling challenging problems in code. Before diving in, I took a foundation course to get the basics down, making sure I had a solid start. Now, I’m building on that foundation, exploring new fields and techniques that can add to my skill set.</p>
+                    <p class="fade-left">When I’m not wrapped up in classes or projects, you’ll probably catch me working on one of my many hobbies—crocheting my latest amigurumi, or binging anime and manga (Fairy Tail is forever a favorite!). Whether you’re here to connect, brainstorm, or just chat, I’d love to connect!</p>
+                    <p class="fade-left">A few quick things about me:
+                        <div class="list-container">
+                            <div class="hobby-list left fade-in">
+                                <ul>
+                                    <li>Known as Mai to the OGs, but I go by Moona here</li>
+                                    <li>Possibly related to someone you know in class</li>
+                                    <li>Always on a mission to learn and create</li>
+                                </ul>
+                            </div>
+                            <div class="hobby-list right fade-in">
+                                <ul>
+                                    <li>Anime and manga enthusiast</li>
+                                    <li>A dedicated Fairy Tail fan.</li>
+                                    <li>Hobbyist crocheter</li>
+                                    <li>A collector of hobbies, master of none</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Education Section-->
+
+    <div id="education">
+        <div class="content">
+            <div class="wrapper-container">
+                <div class="titles">
+                    <p>Education</p>
+                </div>
+            </div>        
+            <p class="descript">My education background</p>
+            <div class="container">
+                <div class="timeline">
+                    <div class="timeline-container right">
+                        <div class="timeline-content fade-in">
+                            <div>Tertiary Education</div>
+                            <p>King Mongkut's University of Technology Thonburi</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container left">
+                        <div class="timeline-content fade-in">
+                            <div>Introduction Course</div>
+                            <p>CS50X: Harvard's Introduction to Computer Science</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container left">
+                        <div class="timeline-content fade-in">
+                            <div>High School</div>
+                            <p>General Educational Development (GED)</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container right">
+                        <div class="timeline-content fade-in">
+                            <div>Middle School</div>
+                            <p>Wolsey Hall Oxford</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container right">
+                        <div class="timeline-content fade-in">
+                            <div>Middle School</div>
+                            <p>Crescent International School</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container left">
+                        <div class="timeline-content fade-in">
+                            <div>Primary School</div>
+                            <p>Pan-Asia International School</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+<!-- Skills Section-->
+
+    <div id="skills">
+       <div class="content">
+        <div class="wrapper-container">
+            <div class="titles">
+                <p>Skills</p>
+            </div>
+        </div>
+            <p class="descript">The skills and technologies I’m familiar with</p>
+            <div class="container">
+                <div class="skill-container left">
+                    <div class="single-skill">
+                        <p>C 65%</p>
+                        <div class="myProgress" data-percentage="65">
+                            <div id="C-skill" class="myBar"></div>
+                        </div>
+                    </div>
+
+                    <div class="single-skill">
+                        <p>Python 72%</p>
+                        <div class="myProgress" data-percentage="72">
+                            <div id="Python-skill" class="myBar"></div>
+                        </div>
+                    </div>
+                    <div class="single-skill">
+                        <p>Javascript 70%</p>
+                        <div class="myProgress" data-percentage="70">
+                            <div id="JS-skill" class="myBar"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="skill-container right">
+                    <div class="single-skill">
+                        <p>HTML 85%</p>
+                        <div class="myProgress" data-percentage="85">
+                            <div id="HTML-skill" class="myBar"></div>
+                        </div>
+                    </div>
+                    <div class="single-skill">
+                        <p>CSS 76%</p>
+                        <div class="myProgress" data-percentage="76">
+                            <div id="CSS-skill" class="myBar"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+       </div>
+    </div>
+
+<!-- Contacts Section-->
+
+    <div id="contact">
+        <div class="content">
+            <div class="wrapper-container">
+                <div class="titles">
+                    <p>Contact</p>
+                </div>
+            </div>
+            <div class="container fade-in" >
+                <div class="contact">
+                    <div class="wrap-icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <p>Phone:</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="wrap-icon-con" id="phone-contact">
+                                <span class="tooltip" id="tooltip-phone" role="tooltip">Copied!</span>
+                                <p id="phone-number">+66 97 043 8915</p>
+                                <button class="copy-button" id="phone-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <div class="wrap-icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        <p>Email:</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="wrap-icon-con"  id="email-contact-1">
+                                <span class="tooltip" id="tooltip-email1" role="tooltip">Copied!</span>
+                                <p id="email-1">maimoona.aziz@mail.kmutt.ac.th</p>
+                                <button class="copy-button" id="email-button-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                    </svg>
+                                </button>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="wrap-icon-con" id="email-contact-2">
+                                <span class="tooltip" id="tooltip-email2" role="tooltip">Copied!</span>
+                                <p id="email-2">maimoonaaz15@gmail.com</p>
+                                <button class="copy-button" id="email-button-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <div class="wrap-icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        <p>Instagram:</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://www.instagram.com/moona._enchant/" target="_blank" aria-label="Instagram Profile">@moona._enchant</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <div class="wrap-icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        <p>Facebook:</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <p>
+                                <a href="https://www.facebook.com/profile.php?id=100087099409205" target="_blank" aria-label="Facebook Profile">Maimoona Aziz</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Footer Section-->
+
+    <div id="footer">
+        <div class="content">
+            <div class="container">
+                <p>2024 | Maimoona Aziz #67070503473</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
